@@ -39,7 +39,6 @@ m = QuickPOMDP(
 
 
 
-
 solver = QMDPSolver()
 policy = solve(solver, m)
 
